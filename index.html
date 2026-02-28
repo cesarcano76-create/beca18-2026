@@ -1,144 +1,368 @@
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html lang="es"><head>
+  <script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202602260101/reactive_library_fy2021.js?bust=31096975"></script><script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202602260101/show_ads_impl_fy2021.js?bust=31096975"></script><script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6175076564917081" crossorigin="anonymous" data-checked-head="true"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Selección - Asesoría Beca 18</title>
 
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="HTTrack is an easy-to-use website mirror utility. It allows you to download a World Wide website from the Internet to a local directory,building recursively all structures, getting html, images, and other files from the server to your computer. Links are rebuiltrelatively so that you can freely browse to the local site (works with any browser). You can mirror several sites together so that you can jump from one toanother. You can, also, update an existing mirror site, or resume an interrupted download. The robot is fully configurable, with an integrated help" />
-	<meta name="keywords" content="httrack, HTTRACK, HTTrack, winhttrack, WINHTTRACK, WinHTTrack, offline browser, web mirror utility, aspirateur web, surf offline, web capture, www mirror utility, browse offline, local  site builder, website mirroring, aspirateur www, internet grabber, capture de site web, internet tool, hors connexion, unix, dos, windows 95, windows 98, solaris, ibm580, AIX 4.0, HTS, HTGet, web aspirator, web aspirateur, libre, GPL, GNU, free software" />
-	<title>Local index - HTTrack Website Copier</title>
-  <!-- Mirror and index made by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
-	<style type="text/css">
-	<!--
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/logos/JS32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/logos/JS16.png">
+  <link rel="shortcut icon" href="/assets/images/logos/JS.png">
 
-body {
-	margin: 0;  padding: 0;  margin-bottom: 15px;  margin-top: 8px;
-	background: #77b;
-}
-body, td {
-	font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-	}
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
-#subTitle {
-	background: #000;  color: #fff;  padding: 4px;  font-weight: bold; 
-	}
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
 
-#siteNavigation a, #siteNavigation .current {
-	font-weight: bold;  color: #448;
-	}
-#siteNavigation a:link    { text-decoration: none; }
-#siteNavigation a:visited { text-decoration: none; }
+  <!-- Font Awesome for Social Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-#siteNavigation .current { background-color: #ccd; }
+  <!-- html2canvas y jsPDF para la funcionalidad de descarga -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
-#siteNavigation a:hover   { text-decoration: none;  background-color: #fff;  color: #000; }
-#siteNavigation a:active  { text-decoration: none;  background-color: #ccc; }
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/components/header.css">
+  <link rel="stylesheet" href="/assets/css/components/footer.css">
+  <link rel="stylesheet" href="/assets/css/components/buttons.css">
+  <link rel="stylesheet" href="/assets/css/components/cards.css">
+  <link rel="stylesheet" href="/assets/css/pages/calculadoras.css">
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script async="" src="https://fundingchoicesmessages.google.com/i/ca-pub-6175076564917081?href=https%3A%2F%2Fasesoriabeca18.web.app%2Fcalculadoras%2Fseleccion.html&amp;ers=2"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxVgzLU6erddkJeVHljhjivBtRiG_1wdYqK8LEN72-t-P3MmNCqy5DiYhSQS3Iw1Z4n5349EvZJCbZDQMPIed8aEil4k8tBZhI6uJ3iqN0TJTK08nEFkDgLya8_plP-jwhouMpZpNg==?fccs=W1siQUtzUm9sOWFtN2FWWV9TRFNZOGtoOXNhZmZuMnBWTWxPNW1mdGNZa095YVY1UGZMM2JvaEpJc3RtazgzM0lzak9vTFg1VF9BakJlWllSelhMTktnVEJaTEtsMlRCUXRLcFBvVDhjR0h1YXV6c1VDSzQtUXVLTmlOcjhmSFp3alA2LVJTNmJGR2lzYnBnSHVnaElzZ0pVMkVIWlFyUy1jVVNBPT0iXSxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWzE3NzIyNDk3NzcsNjU4MDAwMDAwXSxudWxsLG51bGwsbnVsbCxbbnVsbCxbN11dLCJodHRwczovL2FzZXNvcmlhYmVjYTE4LndlYi5hcHAvY2FsY3VsYWRvcmFzL3NlbGVjY2lvbi5odG1sIixudWxsLFtbOCwiLVJlUlFIbVpvclUiXSxbOSwiZXMtNDE5Il0sWzIzLCIxNzcyMjQ5NjIzIl0sWzE5LCIyIl0sWzE3LCJbMF0iXSxbMjQsIiJdLFsyNSwiW1s5NTM3OTgyNF1dIl0sWzI5LCJmYWxzZSJdXV0"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxVrjcJqVF4k66gofKirrvGpiSybcbP57QMZKElKBAYnKjuqchy-ukGaf9sYIfrRMUFuw-WfJFxhhAcL4jguLJkSTF4GKBOMINhZYR-Fv037IHehpsPfk3sUnCLEal7vEeV8-P9IjQ==?fccs=W1siQUtzUm9sOWFtN2FWWV9TRFNZOGtoOXNhZmZuMnBWTWxPNW1mdGNZa095YVY1UGZMM2JvaEpJc3RtazgzM0lzak9vTFg1VF9BakJlWllSelhMTktnVEJaTEtsMlRCUXRLcFBvVDhjR0h1YXV6c1VDSzQtUXVLTmlOcjhmSFp3alA2LVJTNmJGR2lzYnBnSHVnaElzZ0pVMkVIWlFyUy1jVVNBPT0iXSxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWzE3NzIyNDk3NzcsNzI3MDAwMDAwXSxudWxsLG51bGwsbnVsbCxbbnVsbCxbNyw5XSxudWxsLDIsbnVsbCwiZXMiXSwiaHR0cHM6Ly9hc2Vzb3JpYWJlY2ExOC53ZWIuYXBwL2NhbGN1bGFkb3Jhcy9zZWxlY2Npb24uaHRtbCIsbnVsbCxbWzgsIi1SZVJRSG1ab3JVIl0sWzksImVzLTQxOSJdLFsyMywiMTc3MjI0OTYyMyJdLFsxOSwiMiJdLFsxNywiWzBdIl0sWzI0LCIiXSxbMjUsIltbOTUzNzk4MjRdXSJdLFsyOSwiZmFsc2UiXV1d"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxVpDf6tev_-z2IRAtMS76gm-uL1EDlx0Cwz_VnvpdgtOCjkcFhPzhMpSVaX1uXU3xD-bYH6j0n-dXPQFBi1HdnuBIr0Stm1dRNy4iD1Upr3iEsVn15L0hThUNq54KFzeXSk00apgA==?fccs=W1siQUtzUm9sOWFtN2FWWV9TRFNZOGtoOXNhZmZuMnBWTWxPNW1mdGNZa095YVY1UGZMM2JvaEpJc3RtazgzM0lzak9vTFg1VF9BakJlWllSelhMTktnVEJaTEtsMlRCUXRLcFBvVDhjR0h1YXV6c1VDSzQtUXVLTmlOcjhmSFp3alA2LVJTNmJGR2lzYnBnSHVnaElzZ0pVMkVIWlFyUy1jVVNBPT0iXSxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWzE3NzIyNDk3NzgsNDg2MDAwMDAwXSxudWxsLG51bGwsbnVsbCxbbnVsbCxbNyw5LDZdLG51bGwsMixudWxsLCJlcyIsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLDFdLCJodHRwczovL2FzZXNvcmlhYmVjYTE4LndlYi5hcHAvY2FsY3VsYWRvcmFzL3NlbGVjY2lvbi5odG1sIixudWxsLFtbOCwiLVJlUlFIbVpvclUiXSxbOSwiZXMtNDE5Il0sWzIzLCIxNzcyMjQ5NjIzIl0sWzE5LCIyIl0sWzE3LCJbMF0iXSxbMjQsIiJdLFsyNSwiW1s5NTM3OTgyNF1dIl0sWzI5LCJmYWxzZSJdXV0"></script></head>
+<body style="padding: 0px;">
+  <ins class="adsbygoogle adsbygoogle-noablate" data-ad-hi="true" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><div id="aswift_0_host" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6175076564917081&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;lmt=1741071879&amp;plat=9%3A134250504%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fasesoriabeca18.web.app%2Fcalculadoras%2Fseleccion.html&amp;pra=5&amp;asro=0&amp;itsi=0&amp;aiapm=0.1542&amp;aiapmd=0.1423&amp;aiapmi=0.16&amp;aiapmid=1&amp;aiact=0.5423&amp;aiactd=0.7&amp;aicct=0.7&amp;aicctd=0.5799&amp;ailct=0.5849&amp;ailctd=0.65&amp;aimart=4&amp;aimartd=4&amp;aieuf=1&amp;aicrs=1&amp;uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTQ1LjAuNzYzMi4xMTciLG51bGwsMCxudWxsLCI2NCIsW1siTm90OkEtQnJhbmQiLCI5OS4wLjAuMCJdLFsiR29vZ2xlIENocm9tZSIsIjE0NS4wLjc2MzIuMTE3Il0sWyJDaHJvbWl1bSIsIjE0NS4wLjc2MzIuMTE3Il1dLDBd&amp;abgtt=6&amp;dt=1772249776723&amp;bpp=3&amp;bdt=84&amp;idt=82&amp;shv=r20260225&amp;mjsv=m202602260101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D4eb88821300f0dd8%3AT%3D1772249623%3ART%3D1772249623%3AS%3DALNI_MZyvrPFhDCnFGiGseYP0bPrZK4j2Q&amp;gpic=UID%3D000012f58ab5145d%3AT%3D1772249623%3ART%3D1772249623%3AS%3DALNI_MbBPUfkocABopYrZ-2OIJ68EK5lPA&amp;eoidce=1&amp;nras=1&amp;correlator=849643585513&amp;frm=20&amp;pv=2&amp;u_tz=-300&amp;u_his=4&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=32&amp;u_sd=1&amp;dmc=8&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1905&amp;bih=953&amp;scr_x=0&amp;scr_y=0&amp;eid=42532523%2C95378425%2C95381339%2C95382853%2C95383701%2C95383860%2C31096975%2C42533293%2C95344787%2C95379824&amp;oid=2&amp;pvsid=3723507028905741&amp;tmod=210893202&amp;uas=0&amp;nvt=1&amp;fsapi=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1920%2C0%2C1920%2C1040%2C1920%2C953&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;plas=308x856_l%7C366x856_r&amp;bz=1&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=101" data-google-container-id="a!1" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins><!-- Contenedor para el encabezado -->
+  <div id="header-container"><!-- 
+  Header principal - Se incluye en todas las páginas
+  Contiene el logo, navegación principal y menú móvil
+-->
+</div>
 
+  <!-- Contenedor para el contenido principal -->
+  <div class="content-wrapper">
+    <div class="container">
+      <section class="section">
+        <h2>Calculadora de Selección Beca 18 2026</h2>
 
-a:link    { text-decoration: underline;  color: #00f; }
-a:visited { text-decoration: underline;  color: #000; }
-a:hover   { text-decoration: underline;  color: #c00; }
-a:active  { text-decoration: underline; }
+        <div class="about-me-intro">
+          <p>Utiliza nuestra herramienta para calcular y simular tu puntaje de selección en Beca 18 2026. Esta calculadora te ayudará a determinar tu puntaje final considerando la IES elegida.</p>
+        </div>
 
-#pageContent {
-	clear: both;
-	border-bottom: 6px solid #000;
-	padding: 10px;  padding-top: 20px;
-	line-height: 1.65em;
-	background-image: url(backblue.gif);
-	background-repeat: no-repeat;
-	background-position: top right;
-	}
+        <!-- Formulario de Selección -->
+        <div class="presentation-container section-bg">
+          <form id="seleccionForm" class="calculadora-form">
+            <div class="form-group">
+              <label for="nombreSeleccion">Tu nombre:</label>
+              <input type="text" id="nombreSeleccion" name="nombreSeleccion" maxlength="50" required="" placeholder="Ingresa tu nombre">
+            </div>
 
-#pageContent, #siteNavigation {
-	background-color: #ccd;
-	}
+            <div class="form-group">
+              <label for="modalidadSeleccion">Modalidad:</label>
+              <select id="modalidadSeleccion" name="modalidadSeleccion" required="">
+                <option value="">Selecciona una modalidad</option>
+                <option value="ordinaria">Ordinaria</option>
+                <option value="cna_pa">CNA y PA</option>
+                <option value="eib">EIB</option>
+                <option value="proteccion">Protección</option>
+                <option value="ff_aa">FF. AA.</option>
+                <option value="vraem">VRAEM</option>
+                <option value="huallaga">Huallaga</option>
+                <option value="repared">REPARED</option>
+              </select>
+            </div>
 
+            <div class="form-group">
+              <label for="puntajePreseleccion">(PS) Puntaje de Preselección:</label>
+              <input type="number" id="puntajePreseleccion" name="puntajePreseleccion" min="0" max="180" required="" placeholder="Ingresa un número entre 0 y 180">
+              <p id="puntajePreseleccionError" class="error-message"></p>
+              <p class="input-hint">Ingresa un número entre 0 y 180.</p>
+            </div>
 
-.imgLeft  { float: left;   margin-right: 10px;  margin-bottom: 10px; }
-.imgRight { float: right;  margin-left: 10px;   margin-bottom: 10px; }
+            <div class="form-group">
+              <label for="regionIES">Región IES:</label>
+              <select id="regionIES" name="regionIES" required=""><option value="">Selecciona una región (obligatorio)</option><option value="Amazonas">Amazonas</option><option value="Apurímac">Apurímac</option><option value="Arequipa">Arequipa</option><option value="Ayacucho">Ayacucho</option><option value="Cajamarca">Cajamarca</option><option value="Callao">Callao</option><option value="Cusco">Cusco</option><option value="Huancavelica">Huancavelica</option><option value="Huánuco">Huánuco</option><option value="Ica">Ica</option><option value="Junín">Junín</option><option value="La Libertad">La Libertad</option><option value="Lambayeque">Lambayeque</option><option value="Lima">Lima</option><option value="Loreto">Loreto</option><option value="Madre De Dios">Madre De Dios</option><option value="Moquegua">Moquegua</option><option value="Pasco">Pasco</option><option value="Piura">Piura</option><option value="Puno">Puno</option><option value="San Martín">San Martín</option><option value="Tacna">Tacna</option><option value="Tumbes">Tumbes</option><option value="Ucayali">Ucayali</option><option value="Áncash">Áncash</option></select>
+            </div>
 
-hr { height: 1px;  color: #000;  background-color: #000;  margin-bottom: 15px; }
+            <div class="form-group">
+              <label>Tipo de IES:</label>
+              <div id="tipoIESContainer" class="checkbox-group">
+                <!-- Las opciones se cargarán dinámicamente con JavaScript -->
+              </div>
+            </div>
 
-h1 { margin: 0;  font-weight: bold;  font-size: 2em; }
-h2 { margin: 0;  font-weight: bold;  font-size: 1.6em; }
-h3 { margin: 0;  font-weight: bold;  font-size: 1.3em; }
-h4 { margin: 0;  font-weight: bold;  font-size: 1.18em; }
+            <div class="form-group">
+              <label>Gestión IES:</label>
+              <div id="gestionIESContainer" class="checkbox-group">
+                <!-- Las opciones se cargarán dinámicamente con JavaScript -->
+              </div>
+            </div>
 
-.blak { background-color: #000; }
-.hide { display: none; }
-.tableWidth { min-width: 400px; }
+            <div class="form-group">
+              <label for="iesSeleccion">Instituciones de Educación Superior:</label>
+              <select id="iesSeleccion" name="iesSeleccion" required="">
+                <option value="">Selecciona una IES</option>
+                <!-- Las opciones se cargarán dinámicamente con JavaScript -->
+              </select>
+            </div>
 
-.tblRegular       { border-collapse: collapse; }
-.tblRegular td    { padding: 6px;  background-image: url(fade.gif);  border: 2px solid #99c; }
-.tblHeaderColor, .tblHeaderColor td { background: #99c; }
-.tblNoBorder td   { border: 0; }
+            <div id="iesInfo" class="form-group" style="display: none;">
+              <h4>Información de la IES seleccionada:</h4>
+              <div class="ies-info-grid">
+                <div class="ies-info-item">
+                  <label>Código Tipo IES:</label>
+                  <input type="text" id="codigoTipoIES" readonly="">
+                </div>
+                <div class="ies-info-item">
+                  <label>Tipo IES:</label>
+                  <input type="text" id="tipoIES" readonly="">
+                </div>
+                <div class="ies-info-item">
+                  <label>Región IES:</label>
+                  <input type="text" id="regionIESInfo" readonly="">
+                </div>
+                <div class="ies-info-item">
+                  <label>Siglas IES:</label>
+                  <input type="text" id="siglasIES" readonly="">
+                </div>
+                <div class="ies-info-item">
+                  <label>Top IES:</label>
+                  <input type="text" id="topIES" readonly="">
+                </div>
+                <div class="ies-info-item">
+                  <label>Ranking IES:</label>
+                  <input type="text" id="rankingIES" readonly="">
+                </div>
+                <div class="ies-info-item">
+                  <label>Puntaje Ranking IES:</label>
+                  <input type="text" id="puntajeRankingIES" readonly="">
+                </div>
+                <div class="ies-info-item">
+                  <label>Gestión IES:</label>
+                  <input type="text" id="gestionIES" readonly="">
+                </div>
+                <div class="ies-info-item">
+                  <label>Puntaje Gestión IES:</label>
+                  <input type="text" id="puntajeGestionIES" readonly="">
+                </div>
+                <div class="ies-info-item">
+                  <label>Ratio Selectividad:</label>
+                  <input type="text" id="ratioSelectividad" readonly="">
+                </div>
+                <div class="ies-info-item">
+                  <label>Puntaje Ratio Selectividad:</label>
+                  <input type="text" id="puntajeRatioSelectividad" readonly="">
+                </div>
+                <div class="ies-info-item">
+                  <label>Puntos Extra PAO:</label>
+                  <input type="text" id="puntosExtraPAO" readonly="">
+                </div>
+              </div>
+            </div>
 
+            <div class="calculadora-actions">
+              <button type="submit" class="btn-custom">Calcular Puntaje de Selección</button>
+              <button type="button" id="limpiarFormSeleccion" class="btn-custom btn-secondary">Limpiar Formulario</button>
+            </div>
+          </form>
 
-// -->
-</style>
+          <div id="resultadoSeleccion" class="resultado-container" style="display: none;"></div>
 
-</head>
+          <div class="download-options" style="display: none;">
+            <select id="formatoDescargaSeleccion" class="form-select">
+              <option value="png">Imagen PNG</option>
+              <option value="pdf">PDF</option>
+            </select>
+            <button id="descargarResultadoSeleccion" class="btn-custom">Descargar Resultado</button>
+          </div>
+        </div>
 
-<table width="76%" border="0" align="center" cellspacing="0" cellpadding="3" class="tableWidth">
-	<tr>
-	<td id="subTitle">HTTrack Website Copier - Open Source offline browser</td>
-	</tr>
-</table>
-<table width="76%" border="0" align="center" cellspacing="0" cellpadding="0" class="tableWidth">
-<tr class="blak">
-<td>
-	<table width="100%" border="0" align="center" cellspacing="1" cellpadding="0">
-	<tr>
-	<td colspan="6"> 
-		<table width="100%" border="0" align="center" cellspacing="0" cellpadding="10">
-		<tr> 
-		<td id="pageContent"> 
-<!-- ==================== End prologue ==================== -->
+        <!-- Modal para IES recomendadas -->
+        <div id="recomendacionesModal" class="modal-overlay" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">🧐 IES Recomendadas</h5>
+                <button type="button" class="modal-close" id="cerrarRecomendaciones">×</button>
+              </div>
+              <div class="modal-body" id="recomendacionesContent">
+                <!-- Contenido dinámico de recomendaciones -->
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn-custom" id="cerrarRecomendacionesBtn">Entendido</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
-	<meta name="generator" content="HTTrack Website Copier/3.x">
-	<TITLE>Local index - HTTrack</TITLE>
-</HEAD>
-<BODY>
-<H1 ALIGN=Center>Index of locally available sites:</H1>
-	<TABLE BORDER="0" WIDTH="100%" CELLSPACING="1" CELLPADDING="0">
-		<TR>
-			<TD BACKGROUND="fade.gif">
-				&middot;
-					<A HREF="asesoriabeca18.web.app/calculadoras/seleccion.html">
-						Calculadora de Selección - Asesoría Beca 18
-					</A>		
-			</TD>
-		</TR>
-	</TABLE>
-	<BR>
-	<BR>
-	<BR>
-  	<H6 ALIGN="RIGHT">
-	<I>Mirror and index made by HTTrack Website Copier [XR&amp;CO'2008]</I>
-	</H6>
-	<!-- Mirror and index made by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
-	<!-- Thanks for using HTTrack Website Copier! -->
-	<meta HTTP-EQUIV="Refresh" CONTENT="0; URL=asesoriabeca18.web.app/calculadoras/seleccion.html">
+        <!-- Sección explicativa -->
+        <div class="presentation-container section-bg">
+          <h3>¿Cómo funciona el cálculo de selección?</h3>
+          <p>La fase de selección es determinante para obtener Beca 18. Tu puntaje final se calcula considerando:</p>
+          
+          <ul>
+            <li><strong>Puntaje de Preselección (PS):</strong> El puntaje obtenido en la fase inicial.</li>
+            <li><strong>Puntos por Calidad (C):</strong> Hasta 10 puntos según el ranking de la IES elegida.</li>
+            <li><strong>Puntos por Gestión (G):</strong> Hasta 10 puntos según el tipo de gestión de la IES (pública o privada).</li>
+            <li><strong>Puntos por Selectividad (S):</strong> Hasta 10 puntos según la selectividad de la institución.</li>
+          </ul>
+          
+          <p>El puntaje máximo varía según la modalidad: para EIB es 210 puntos, para las demás modalidades es 200 puntos.</p>
+          
+          <div class="info-card">
+            <h4>Consejo importante</h4>
+            <p>La elección de la IES puede marcar una diferencia significativa en tu puntaje final. Utiliza nuestra calculadora para simular diferentes opciones y encontrar la que más te beneficie, cualquier duda o tramite escribeme al 993210163.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
 
+  <!-- Estilos específicos para modales -->
+  <style>
+    /* Estilos para el modal */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    
+    .modal-dialog {
+      width: 90%;
+      max-width: 700px;
+      margin: 30px auto;
+      pointer-events: all;
+    }
+    
+    .modal-content {
+      position: relative;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      max-height: 80vh;
+      overflow-y: auto;
+    }
+    
+    .modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 20px;
+      border-bottom: 1px solid #e9ecef;
+    }
+    
+    .modal-title {
+      margin: 0;
+      font-weight: 600;
+      color: var(--color-dark-blue);
+    }
+    
+    .modal-close {
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+      color: #6c757d;
+    }
+    
+    .modal-body {
+      padding: 20px;
+    }
+    
+    .modal-footer {
+      padding: 15px 20px;
+      border-top: 1px solid #e9ecef;
+      display: flex;
+      justify-content: flex-end;
+    }
+    
+    /* Estilos para las IES recomendadas */
+    .recommended-section {
+      margin-bottom: 20px;
+    }
+    
+    .recommended-title {
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: var(--color-dark-blue);
+      border-left: 3px solid var(--color-yellow);
+      padding-left: 10px;
+    }
+    
+    .recommended-card {
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-left: 3px solid var(--color-blue);
+    }
+    
+    .recommended-card-title {
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: var(--color-dark-blue);
+    }
+    
+    .recommended-info {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    
+    .recommended-details {
+      flex: 1;
+    }
+    
+    .recommended-points {
+      flex: 1;
+      text-align: right;
+    }
+    
+    .recommended-points span {
+      color: var(--color-blue);
+      font-weight: 600;
+    }
+    
+    .recommended-total {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 10px;
+      margin-top: 10px;
+      border-top: 1px solid #dee2e6;
+      font-weight: 600;
+    }
+    
+    .recommended-points-value {
+      color: var(--color-blue);
+      font-size: 1.1rem;
+    }
+  </style>
 
-<!-- ==================== Start epilogue ==================== -->
-		</td>
-		</tr>
-		</table>
-	</td>
-	</tr>
-	</table>
-</td>
-</tr>
-</table>
+  <!-- Contenedor para el pie de página -->
+  <div id="footer-container"><!-- 
+  Footer principal - Se incluye en todas las páginas
+  Contiene copyright y enlaces a redes sociales
+-->
+<footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>© 2024 Asesoría Beca 18 - Todos los derechos reservados</p>
+        
+      </div>
+    </div>
+  </footer></div>
 
-<table width="76%" border="0" align="center" valign="bottom" cellspacing="0" cellpadding="0">
-	<tr>
-	<td id="footer"><small>&copy; 2008 Xavier Roche & other contributors - Web Design: Leto Kauler.</small></td>
-	</tr>
-</table>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/components/header.js"></script>
+  <script src="/assets/js/common.js"></script>
+  <script src="/assets/js/pages/calculadora-seleccion.js"></script>
 
-</body>
-
-</html>
-
-
+<iframe name="googlefcPresent" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" data-anchor-status="displayed" data-ad-status="filled" data-anchor-shown="true" style="display: none; bottom: 0px; clear: none !important; float: none !important; height: 95px; left: 50%; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1; overflow: visible !important; padding: 0px !important; position: fixed; right: auto !important; top: auto !important; vertical-align: baseline !important; visibility: visible !important; width: auto; z-index: 2147483647; transform: translateX(-50%); box-shadow: rgba(0, 0, 0, 0.5) 0px -4px 12px -4px, rgba(0, 0, 0, 0.3) 0px 4px 8px -3px; border-radius: 5px; background: rgb(250, 250, 250) !important;"><div class="grippy-host"></div><div id="aswift_1_host" style="border: none !important; height: 90px; width: 728px !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: inline-block !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;"><iframe id="aswift_1" name="aswift_1" style="min-height: auto; max-height: none; min-width: auto; max-width: none; width: 728px !important; height: 90px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/html/r20260225/r20190131/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271801&amp;client=ca-pub-6175076564917081&amp;fa=1&amp;ifi=2&amp;uci=a!2&amp;btvi=1" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CJuajPOg-5IDFeOwYQYdZzgAEQ" data-load-complete="true"></iframe></div></ins><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" data-side-rail-status="idle" data-ad-status="filled" style="display: none !important; z-index: 2147483647 !important; margin: 0px !important; padding: 0px !important; position: fixed !important; left: 133px !important; top: 48px !important; overflow: visible !important; opacity: 0 !important; transition: 500ms ease-in !important;"><div id="aswift_2_host" style="border: none; height: 600px; width: 160px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_2" name="aswift_2" style="width:160px !IMPORTANT;height:600px !IMPORTANT;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="160" height="600" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/html/r20260225/r20190131/zrt_lookup_fy2021.html#RS-1-&amp;adk=1812271803&amp;client=ca-pub-6175076564917081&amp;fa=3&amp;ifi=3&amp;uci=a!3&amp;btvi=2" data-google-container-id="a!3" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CJyajPOg-5IDFeOwYQYdZzgAEQ" data-load-complete="true"></iframe></div><span class="left-side-rail-edge" style="background: rgb(250, 250, 250) !important; position: absolute !important; left: 0px !important; top: 600px !important; width: 160px !important; height: 5px !important; box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 5px -1px, rgba(0, 0, 0, 0.1) 0px -1px 2px -1px !important;"></span><span class="left-side-rail-dismiss-btn" style="background: rgb(250, 250, 250) !important; position: absolute !important; left: 55px !important; right: 55px !important; top: 605px !important; box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 5px -1px, rgba(0, 0, 0, 0.1) 0px -1px 2px -1px !important;"><svg style="position: absolute !important; top: 0px !important; display: block !important; width: 50px !important; height: 30px !important; margin-top: -5px !important; transform: none !important; pointer-events: initial !important;"><defs><filter id="left-side-rail-drop-shadow" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feComponentTransfer in="SourceAlpha" result="TransferredAlpha"><feFuncR type="discrete" tableValues="0.5"></feFuncR><feFuncG type="discrete" tableValues="0.5"></feFuncG><feFuncB type="discrete" tableValues="0.5"></feFuncB></feComponentTransfer><feGaussianBlur in="TransferredAlpha" stdDeviation="2"></feGaussianBlur><feOffset dx="0" dy="0" result="offsetblur"></feOffset><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><path d="M5,5 L5,17 A8,8 0 0,0 13,25 L37,25 A8,8 0 0,0 45,17 L45,5 Z" stroke="#FAFAFA" stroke-width="1" fill="#FAFAFA" style="filter: url(&quot;#left-side-rail-drop-shadow&quot;);"></path><rect x="0" y="0" width="50" height="5" style="fill: rgb(250, 250, 250);"></rect><g stroke="#616161" stroke-width="2px" stroke-linecap="square"><line x1="18" y1="18" x2="25" y2="12"></line><line x1="25" y1="12" x2="32" y2="18"></line></g></svg></span></ins><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" data-side-rail-status="idle" data-ad-status="filled" style="display: none !important; z-index: 2147483647 !important; margin: 0px !important; padding: 0px !important; position: fixed !important; right: 191px !important; top: 48px !important; overflow: visible !important; opacity: 0 !important; transition: 500ms ease-in !important;"><div id="aswift_3_host" style="border: none; height: 600px; width: 160px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_3" name="aswift_3" style="width:160px !IMPORTANT;height:600px !IMPORTANT;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="160" height="600" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/html/r20260225/r20190131/zrt_lookup_fy2021.html#RS-2-&amp;adk=1812271804&amp;client=ca-pub-6175076564917081&amp;fa=4&amp;ifi=4&amp;uci=a!4&amp;btvi=3" data-google-container-id="a!4" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CJ2ajPOg-5IDFeOwYQYdZzgAEQ" data-load-complete="true"></iframe></div><span class="right-side-rail-edge" style="background: rgb(250, 250, 250) !important; position: absolute !important; left: 0px !important; top: 600px !important; width: 160px !important; height: 5px !important; box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 5px -1px, rgba(0, 0, 0, 0.1) 0px -1px 2px -1px !important;"></span><span class="right-side-rail-dismiss-btn" style="background: rgb(250, 250, 250) !important; position: absolute !important; left: 55px !important; right: 55px !important; top: 605px !important; box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 5px -1px, rgba(0, 0, 0, 0.1) 0px -1px 2px -1px !important;"><svg style="position: absolute !important; top: 0px !important; display: block !important; width: 50px !important; height: 30px !important; margin-top: -5px !important; transform: none !important; pointer-events: initial !important;"><defs><filter id="right-side-rail-drop-shadow" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feComponentTransfer in="SourceAlpha" result="TransferredAlpha"><feFuncR type="discrete" tableValues="0.5"></feFuncR><feFuncG type="discrete" tableValues="0.5"></feFuncG><feFuncB type="discrete" tableValues="0.5"></feFuncB></feComponentTransfer><feGaussianBlur in="TransferredAlpha" stdDeviation="2"></feGaussianBlur><feOffset dx="0" dy="0" result="offsetblur"></feOffset><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><path d="M5,5 L5,17 A8,8 0 0,0 13,25 L37,25 A8,8 0 0,0 45,17 L45,5 Z" stroke="#FAFAFA" stroke-width="1" fill="#FAFAFA" style="filter: url(&quot;#right-side-rail-drop-shadow&quot;);"></path><rect x="0" y="0" width="50" height="5" style="fill: rgb(250, 250, 250);"></rect><g stroke="#616161" stroke-width="2px" stroke-linecap="square"><line x1="18" y1="18" x2="25" y2="12"></line><line x1="25" y1="12" x2="32" y2="18"></line></g></svg></span></ins><iframe name="__tcfapiLocator" src="about:blank" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcInactive" src="about:blank" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcLoaded" src="about:blank" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe></body></html>
