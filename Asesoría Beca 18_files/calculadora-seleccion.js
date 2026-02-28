@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
      */
     async function cargarIES() {
       try {
-        const response = await fetch('/assets/data/ies-data.json');
+        const response = await fetch('./assets/data/ies-data.json');
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -707,3 +707,4 @@ document.addEventListener('DOMContentLoaded', function() {
     return accessUnlocked;
   }
 });
+
